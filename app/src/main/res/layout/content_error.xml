@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.htetznaing.vivommfontstyles.Error"
+    tools:showIn="@layout/activity_error">
+
+    <RelativeLayout
+        android:layout_marginBottom="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/font"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <Button
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/installbg"
+            android:id="@+id/btnInstall"
+            android:layout_below="@id/iv"
+            android:text="Install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/changebg"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/btnInstall"
+            android:id="@+id/btnChange"
+            android:text="Change Font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
