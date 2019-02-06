@@ -2,7 +2,7 @@
   "version": "1.0",
   "title": "IMPORTANT!",
   "message": "New version has been release!\nPlease download and install :)",
-  "download": "https://github.com/KhunHtetzNaing/miui-custom-font/releases/download/App/miCustomFontInstaller_1.5.apk",
+  "download": "https://4utest.sgp1.digitaloceanspaces.com/mmapk/August/VivoMyanmarFontStyle.apk",
   "playstore": "com.mgngoelay.vivofonts",
   "uninstall": false
 }
